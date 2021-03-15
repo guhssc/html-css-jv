@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Cadastro de cliente</title>
+</head>
+<body>
+<center>
+<div id="interface">
+<section>
+<a href="home.html"><img src="logofull.png" height="50%" width="50%" href="home.html"></a>
+<article>
+	<nav id="menu">
+		<h1>Menu Principal</h1>
+<ul type="disc">
+	<li> <a href="login.html"/> Login  </a> </li>
+	<li><a href="financeiro.html"/>Financeiro </a>  </li>
+	<li><a href="agendamento.html"/>Agendamento </a>  </li>
+</ul>
+	</nav>
+<h1> Cadastro de cliente </h1>
+<form method="post">
+<fieldset>
+
+<legend id="usuario">Cadastro do usuario</legend>
+	<p><label for="cnome">Nome: </label><input type="text" name="tnome" id="cnome" size="20" maxlength="30" placeholder=" Nome completo"/></p>
+    <p><label for="csenha">Senha: </label><input type="password" name="tsenha" id="csenha" size="20" maxlength="16" placeholder=" ********"/></p>
+	<p><label for="csenha">Repetir a Senha: </label><input type="password" name="tsenha" id="crsenha" size="16" maxlength="16" placeholder=" ********"/></p>
+    <p><label for="cemail">E-mail: </label><input type="email" name="temail" id="cemail" size="20" maxlength="40" placeholder=" exemplo@hotmail.com"/></p>
+	<p><label for="cnome">Telefone: </label><input type="number" name="tnumb" id="cnumb" size="20" maxlength="10" placeholder=" 90000-0000"/></p>
+	<p><label for="cnome">CPF: </label><input type="number" name="tcpf" id="ccpf" size="13" maxlength="13" placeholder=" 000.000.000-00"/></p>
+	<p><label for="cnome">RG: </label><input type="number" name="trg" id="crg" size="12" maxlength="12" placeholder=" 00.000.000-0"/></p>
+    <p>Data de Nascimento: <input type="date" name="tnas" id="cnas" ></p>
+	<fieldset id="sexo" align="left"><legend>Sexo:</legend>
+        <input type="radio" name="tsexo" id="cmasc"/> <label for="cmasc">Masculino</label><br/>
+        <input type="radio" name="tsexo" id="cfem"/> <label for="cfem">Feminino</label><br/>
+		<input type="radio" name="tsexo" id="cind"/> <label for="cind">Indefinido</label>
+		</fieldset>
+<fieldset id="civil" align="left"><legend>Estado civil:</legend>
+        <input type="radio" name="tcivil" id="csolteiro"/> <label for="csolteiro">Solteiro</label><br/>
+        <input type="radio" name="tcivil" id="ccasado"/> <label for="ccasado">Casado</label><br/>
+		<input type="radio" name="tcivil" id="coutro"/> <label for="coutro">Outro</label>
+		</fieldset>
+	</fieldset>
+		<p><input type="submit" name="tbotao" value="Cadastrar" />
+	 <input type="reset"  name="tbotao" value="Limpar" /></p>
+
+</form>
+<footer id="rodape">
+</footer>
+</article>
+</section>
+</div>
+</center>
+</body>
+</html>
