@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Controle Financeiro</title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+</head>
+<body>
+<center>
+<div id="interface">
+<section>
+<article>
+	<nav id="menu">
+		<h1>Menu Principal</h1>
+<ul type="disc">
+	<li> <a href="cadastro.html"/> Cadastro  </a> </li>
+	<li><a href="promoção.html"/>Promoção  </a></li>
+	<li><a href="fornecedor.html"/> Fornecedor </a> </li>
+	<li><a href="serviço.html"/>Venda de serviço </a> </li>
+	<li><a href="login.html"/>Login </a>  </li>
+	<li><a href="agendamento.html"/>Agendamento </a>  </li>
+</ul>
+	</nav>
+	<h1> Controle Financeiro </h1>
+	<form method="post">
+	<fieldset>
+	<legend>Finanças</legend>
+	<p><label for="cserv">Serviços prestados por clientes:</label><input type="text" name="tserv" id="cserv" size="40" maxlength="50"/></p>
+	<p><label for="cnum">Total de serviços prestados:<label><input type="number" name="tnum" id="cnum" min="0" max="10000" /></p>
+	<p><label for="cent">Total de entradas:<label><input type="number" name="tent" id="cent" min="0" max="10000" /></p>
+	<p><label for="csaid">Total de saídas:<label><input type="number" name="tsaid" id="csaid" min="0" max="10000" /></p>
+	<p><label for="cres">Resultado: R$<label><input type="number" name="tres" id="cres" min="-10000000" max="100000" placeholder="-1000 || +1000"/></p>
+	</fieldset>
+	<p><input type="submit" name="tbotao" value="Cadastrar" />
+	 <input type="reset"  name="tbotao" value="Limpar" /></p>
+	</form>
+	<footer id="rodape">
+<p>by GUSTAVO COTIAS</p>
+</footer>
+</article>
+</section>
+</div>
+</center>
+</body>
+</html>

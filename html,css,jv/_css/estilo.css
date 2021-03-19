@@ -1,0 +1,120 @@
+body{
+			background-color: #000;
+			}
+			footer#rodape{
+text-shadow: 1px 1px 1px #606060;
+				background-color: #000000;
+				border-top: 1px solid #000;
+				padding: 5px 5px 5px 5px;
+
+			}
+			footer#rodape p {
+				text-align: center;
+				color: #fff;
+
+			}
+			h1 {
+				/*text-shadow: 1px 1px 1px #fff;*/
+				font-family: Century Gothic, sans-serif;
+				font-size: 20pt;
+				text-align: center;
+				color: #00ffff;
+				background-color: #000;
+				padding: 0px;
+				margin-top: 3px;
+				border: 2px rgba(0,0,0,.5) solid;
+				
+				box-shadow: 1px 1px 4px #00ffff;
+			}
+			div#interface {
+				width: 1250px;
+				background-color: #1a1a1a;
+				margin: -20px auto 0px auto;
+				box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+				padding: 10px;
+			}
+			h2 {
+				font-family: Century Gothic, sans-serif;
+				text-align: center;
+				color: #606060;
+			}
+			form{
+				width: 600px;
+				margin: auto;
+			}
+			input, textarea {
+				font-family: Century Gothic, sans-serif;
+				font-weight: normal;
+				font-size: 11pt;
+			}
+			
+			legend {
+				color: #fff;
+				font-weight: bold;
+				font-size: 13pt;
+				font-family: Century Gothic, sans-serif;
+				margin: 1px;
+			}
+			fieldset{
+				border-color:#00ffff;
+				margin: 20px;
+				color: #fff;
+				
+				
+			}
+			fieldset#sexo{
+				width: 175px;
+				
+			}
+			
+			nav#menu ul {
+				box-shadow: 1px 1px 4px #00ffff;
+				border: 3px rgba(0,0,0,.5) solid;
+				background-color: #000;
+				List-style: none;
+				text-transform: uppercase;
+				text-align: center;
+				top: -20px;
+				left: 1115px;
+			}
+			nav#menu li {
+				display: inline-block;
+				background-color: #000;
+				padding: 10px;
+				margin: -3px;
+				transition: background-color 0.3s;
+			}
+			nav#menu li:hover {
+				background-color: #000;
+			}
+			nav#menu h1 {
+				display: none;
+			}
+			nav#menu a{
+				font-family: Century Gothicl, sans-serif;
+				color: #fff;
+				text-decoration: none;
+			
+			}
+			nav#menu a:hover {
+				color: #00ffff;
+				text-decoration: bold;
+				text-shadow: 0px 0px 5px #00ffff;
+			}
+			fieldset#civil{
+				width: 175px;
+			}
+			a{
+
+                          color: #00ffff
+				}
+			label{
+				font-family: Century Gothic, sans-serif;
+			}
+			footer#rodape{
+				font-family: Century Gothic, sans-serif;
+			}
+			
+			
+}	
+			

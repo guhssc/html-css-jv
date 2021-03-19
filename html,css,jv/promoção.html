@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro de promoção</title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+</head>
+<body>
+<div id="interface">
+<center>
+<section>
+<article>
+	<nav id="menu">
+		<h1>Menu Principal</h1>
+<ul type="disc">
+	<li> <a href="cadastro.html"/> Cadastro  </a> </li>
+	<li><a href="login.html"/>Login </a></li>
+	<li><a href="fornecedor.html"/> Fornecedor </a> </li>
+	<li><a href="serviço.html"/>Venda de serviço </a> </li>
+	<li><a href="financeiro.html"/>Financeiro </a>  </li>
+	<li><a href="agendamento.html"/>Agendamento </a>  </li>
+</ul>
+	</nav>
+	<h1> Cadastro de Promoção </h1>
+	<form method="post">
+	<fieldset>
+	
+	<legend>Promoção</legend>
+	<p><label for="cnome"/>Nome da Promoção:</label><input type="text" name="tnome" id="cnome" size="20" maxlength="30"/></p>
+	<p><label for="cdesc">Descrição da Promoção:<label><textarea name="tdesc" id="cdesc" cols="55" rows="5" placeholder="Descreva a promoção"></textarea></</p>
+	<p><label for="cini"/>Data de Inicio:</label><input type="date" name="tini" id="cini"/></p>
+	<p><label for="cterm"/>Data de Termino:</label><input type="date" name="tterm" id="cterm"/></p>
+	<p><label for="cvalor"/>Valor da Promoção: R$</label><input type="number" name="tvalor" id="cvalor" size="20" maxlength="30" placeholder="99,99"/></p>
+	
+	</fieldset>
+	<p><input type="submit" name="tbotao" value="Entrar" />
+	 <input type="reset"  name="tbotao" value="Limpar" /></p>
+	</form>
+	<footer id="rodape">
+<p>by GUSTAVO COTIAS</p>
+</footer>
+</article>
+</section>
+</center>
+</div>
+</body>
+</html>

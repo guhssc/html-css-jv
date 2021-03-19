@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro de Fornecedor</title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+</head>
+<body>
+<center>
+<div id="interface">
+<section>
+<a href="home.html"><img src="logofull.png" height="50%" width="50%" align="center"></a>
+<article>
+	<nav id="menu">
+		<h1>Menu Principal</h1>
+<ul type="disc">
+	<li> <a href="home.html"/> HOME  </a> </li>
+	<li><a href="promoção.html"/>PRODUTOS  </a></li>
+	<li><a href="fornecedor.html"/> FALE CONOSCO </a> </li>
+	<li><a href="serviço.html"/>SOBRE NÓS </a> </li>
+	<li><a href="financeiro.html"/>FORNECEDORES </a>  </li>
+</ul>
+	</nav>
+	<h1> Cadastro de Fornecedor </h1>
+	<form method="post">
+	<fieldset>
+	<legend>Fornecedor</legend>
+	<p><label for="cnome">Nome:</label><input type="text" name="tnome" id="cnome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
+    <p><label for="csenha">CNPJ:</label><input type="text" name="tcnpj" id="ccnpj" size="20" maxlength="30" placeholder="00.000.000/0000-00"/></p>
+    <p><label for="cemail">E-mail:</label><input type="email" name="temail" id="cemail" size="20" maxlength="40" placeholder="aaaaa@hotmail.com"/></p>
+	<p><label for="cnome">Telefone:</label><input type="number" name="tnumb" id="cnumb" size="10" maxlength="10" placeholder="90000-0000"/></p>
+	<p><label for="ctipo">Tipo de Produto:</label><input type="text" name="ttipo" id="ctipo" size="20" maxlength="20"/></p>
+	<p><label for="csite">Site:</label><input type="text" name="tsite" id="csite" size="30" maxlength="40" placeholder="www.aaa.com.br"/></p>
+	<p><label for="cfant">Nome Fantasia:</label><input type="text" name="tfant" id="cfant" size="20" maxlength="30"/></p>
+	<fieldset>
+<legend id="endereco">Endereço do Usuário</legend>
+    <p><label for="crua">Endereço:<label><input type="text" name="trua" id="crua" size="13" maxlength="80" placeholder="Rua, Avenida"/></p>
+    <p><label for="cnum">Número:<label><input type="number" name="tnum" id="cnum" min="7" max="7" /></p>
+	<p><label for="ccomp">Complemento:</label><input type="text" name="tcomp" id="ccomp" size="1" maxlength="2"/></p>
+    <p><label for="cest">Estado:<label> 
+	<select name="test" id="cest">
+	<option>Acre (AC)</option>
+	<option>Alagoas (AL)</option>
+	<option>Amapá (AP)</option>
+	<option>Amazonas (AM)</option>
+	<option>Bahia (BA)</option>
+	<option>Ceará (CE)</option>
+	<option>Distrito Federal (DF)</option>
+	<option>Espírito Santo (ES)</option>
+	<option>Goiás (GO)</ption>
+	<option>Maranhão (MA)</option>
+	<option>Mato Grosso (MT)</option>
+	<option>Mato Grosso do Sul (MS)</option>
+	<option>Minas Gerais (MG)</option>
+	<option>Pará (PA) </option>
+	<option>Paraíba (PB)</option>
+	<option>Paraná (PR)</option>
+	<option>Pernambuco (PE)</option>
+	<option>Piauí (PI)</option>
+	<option>Rio de Janeiro (RJ)</option>
+	<option>Rio Grande do Norte (RN)</option>
+	<option>Rio Grande do Sul (RS)</option>
+	<option>Rondônia (RO)</option>
+	<option>Roraima (RR)</option>
+	<option>Santa Catarina (SC)</option>
+	<option>São Paulo (SP)</option>
+	<option>Sergipe (SE)</option>
+	<option>Tocantins</option>
+	</select></p>
+    <p><label for="ccid">Cidade:<label><input type="text" name="tcid" id="ccid" size="20" maxlength="40" placeholder="Sua Cidade"></p>
+</fieldset>
+	</fieldset>
+	<p><input type="submit" name="tbotao" value="Cadastrar" />
+	 <input type="reset"  name="tbotao" value="Limpar" /></p>
+	</form>
+	<footer id="rodape">
+<p>by GUSTAVO COTIAS</p>
+</footer>
+</article>
+</section>
+</div>
+</center>
+</body>
+</html>

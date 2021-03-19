@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro de venda de serviço</title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+</head>
+<body>
+<center>
+<div id="interface">
+<section>
+<article>
+	<nav id="menu">
+		<h1>Menu Principal</h1>
+<ul type="disc">
+	<li> <a href="cadastro.html"/> Cadastro  </a> </li>
+	<li><a href="promoção.html"/>Promoção  </a></li>
+	<li><a href="fornecedor.html"/> Fornecedor </a> </li>
+	<li><a href="login.html"/>Login </a> </li>
+	<li><a href="financeiro.html"/>Financeiro </a>  </li>
+	<li><a href="agendamento.html"/>Agendamento </a>  </li>
+</ul>
+	</nav>
+	<h1> Cadastro de venda de serviço </h1>
+	<form method="post">
+	<fieldset>
+	<legend>Cadastrar venda de serviço</legend>
+	<p><label for="cserv">Serviço:</label><input type="text" name="tserv" id="cserv" size="20" maxlength="30"/></p>
+	<p><label for="ccliente">Cliente:</label><input type="text" name="tcliente" id="ccliente" size="20" maxlength="30"/></p>
+	<p><label for="cprod">Produto:</label><input type="text" name="tprod" id="cprod" size="20" maxlength="30"/></p>
+	<p><label for="cdesc"/>Valor do desconto em %:</label><input type="number" name="tvalor" id="cvalor" min="0" max="500" placeholder="50%"/></p>
+	<p><label for="cdesc"/>Valor do desconto: R$</label><input type="number" name="tvalor" id="cvalor" min="0" max="99999999999" placeholder="99,99"/></p>
+	</fieldset>
+	<p><input type="submit" name="tbotao" value="Cadastar" />
+	 <input type="reset"  name="tbotao" value="Limpar" /></p>
+	</form>
+	<footer id="rodape">
+<p>by GUSTAVO COTIAS</p>
+</footer>
+</article>
+</section>
+</div>
+</center>
+</body>
+</html>
